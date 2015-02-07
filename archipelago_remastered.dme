@@ -1,0 +1,127 @@
+
+
+#define MESSAGE_HUNGER		1
+#define MESSAGE_THIRST		2
+#define MESSAGE_SEARCHING	3
+#define MESSAGE_PLUCKING	4
+#define MESSAGE_DOOR		5
+#define MESSAGE_CONTAINER	6
+#define MESSAGE_COMBINING	7
+#define MESSAGE_SWIMMING	8
+#define MESSAGE_DRINKING	9
+#define MESSAGE_CRAFTING	10
+#define MESSAGE_FISHING		11
+#define MESSAGE_COOKING		12
+#define MESSAGE_FARMING		13
+#define MESSAGE_GEOGRAPHY	14
+#define MESSAGE_BUILDING	15
+#define MESSAGE_LUMBERJACK	16
+#define MESSAGE_WATERING	17
+#define MESSAGE_FIRE 		18
+#define MESSAGE_EATING		19
+#define MESSAGE_ALCHEMY		20
+#define MESSAGE_MINING		21
+#define	MESSAGE_SMITHING	22
+#define MESSAGE_SMELTING	23
+#define MESSAGE_COMBAT		24
+
+#define	SKILL_BUILDING	1
+#define SKILL_CRAFTING  2
+#define SKILL_SMITHING	3
+#define SKILL_MINING	4
+#define SKILL_FARMING	5
+#define SKILL_ALCHEMY	6
+#define SKILL_FISHING	7
+#define SKILL_SWIMMING	8
+#define SKILL_LUMBERJACK	9
+#define SKILL_COOKING	10
+#define SKILL_COMBAT	11
+
+#define MAX_SKILLS 11
+
+#define FAILURE_XP_BOOST 2.0
+
+#define COOKED_GOOD 1
+#define COOKED_BURNT 2
+
+#define IQ_MAKE 1
+#define IQ_FIND 2
+
+#define	IRON	1
+#define	BRONZE	2
+#define STEEL	4
+#define BRASS	8
+#define	TITANIUM	16
+#define	ADAMANTIUM	32
+#define SILVER	64
+#define GOLD	128
+
+#define MY_TURF_LAYER 5
+#define MY_OBJ_LAYER 15
+#define MY_MOB_LAYER 25
+
+#define CONTENTS_WATER 1
+#define CONTENTS_MILK 2
+// BEGIN_INTERNALS
+// END_INTERNALS
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "graphics"
+#define FILE_DIR "graphics/building"
+#define FILE_DIR "graphics/farming"
+#define FILE_DIR "graphics/fish"
+#define FILE_DIR "graphics/items"
+#define FILE_DIR "graphics/metalwork"
+#define FILE_DIR "graphics/tools"
+// END_FILE_DIR
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+// BEGIN_INCLUDE
+#include "Skin.dmf"
+#include "2intro_screen.dmm"
+#include "Archipelago Map.dmm"
+#include "Coding\Administration.dm"
+#include "Coding\Auto-Save proc.dm"
+#include "Coding\Ban.dm"
+#include "Coding\bars.dm"
+#include "Coding\MOTD.dm"
+#include "Coding\Names.dm"
+#include "Coding\temp_stuff.dm"
+#include "Coding\Voting.dm"
+#include "Coding\world_module.dm"
+#include "Coding\WorldSave.dm"
+#include "Coding\Modules\alchemy_module.dm"
+#include "Coding\Modules\building_module.dm"
+#include "Coding\Modules\buildings_module.dm"
+#include "Coding\Modules\chests_module.dm"
+#include "Coding\Modules\cleanup_module.dm"
+#include "Coding\Modules\combat_module.dm"
+#include "Coding\Modules\combination_module.dm"
+#include "Coding\Modules\containers_module.dm"
+#include "Coding\Modules\cooking_module.dm"
+#include "Coding\Modules\crafting_module.dm"
+#include "Coding\Modules\farming_module.dm"
+#include "Coding\Modules\fire_module.dm"
+#include "Coding\Modules\fishing_module.dm"
+#include "Coding\Modules\food_module.dm"
+#include "Coding\Modules\health_module.dm"
+#include "Coding\Modules\intelegence_module.dm"
+#include "Coding\Modules\items_module.dm"
+#include "Coding\Modules\lighting_module.dm"
+#include "Coding\Modules\maps_module.dm"
+#include "Coding\Modules\messages_module.dm"
+#include "Coding\Modules\mining_module.dm"
+#include "Coding\Modules\report_module.dm"
+#include "Coding\Modules\searching_module.dm"
+#include "Coding\Modules\SkillCheck_Module.dm"
+#include "Coding\Modules\skills_module.dm"
+#include "Coding\Modules\smelting_module.dm"
+#include "Coding\Modules\smithing_module.dm"
+#include "Coding\Modules\swimming_module.dm"
+#include "Coding\Modules\trees_module.dm"
+#include "Coding\Modules\tribes_module.dm"
+#include "Coding\Modules\turfs_module.dm"
+#include "theodis\Pathfinder.dm"
+#include "theodis\PriorityQueue.dm"
+// END_INCLUDE
+

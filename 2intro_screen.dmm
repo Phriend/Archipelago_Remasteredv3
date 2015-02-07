@@ -1,0 +1,20 @@
+"a" = (/turf/Cave_Wall2,/area)
+"b" = (/obj/Button/Start_New_Game,/turf/Cave_Wall2,/area)
+"c" = (/obj/TitleSpot,/turf/Cave_Wall2,/area)
+"d" = (/obj/Button/Load,/turf/Cave_Wall2,/area)
+"e" = (/turf/evilsmile,/area)
+"f" = (/turf/Title,/area)
+
+(1,1,1) = {"
+aaaaaaaaaaa
+aaaaaaaaaaa
+aaaaaaaaaaa
+aaaaaaaaaaa
+aaaaaaaaaaa
+abbbacdddda
+abbbeadddda
+aaaaaaaaaaa
+aaaaaaaaaaa
+aaaaaaaaaaa
+faaaaaaaaaa
+"}
